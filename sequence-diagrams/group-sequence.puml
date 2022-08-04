@@ -1,0 +1,11 @@
+@startuml groups
+Title Groups Practice
+Alice -> Byron: Hello!
+Alice <-- Byron: Hi!
+group a group! [this group]
+Alice <-> Byron: Yay!
+Alice <-> Ethan: Excellent!
+Byron <-> Ethan: Woohoo!
+end
+
+@enduml

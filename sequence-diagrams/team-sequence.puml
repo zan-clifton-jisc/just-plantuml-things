@@ -1,0 +1,33 @@
+@startuml team-sequence-silliness
+Title Team Sequence Silliness
+actor Anna #orange
+actor Leigh #lightblue
+actor Lukasz #darkred
+actor Thomas #lightgreen
+actor Zan #indigo
+group group
+Anna <-> Leigh: This
+Anna <-> Lukasz: is
+Anna <-> Thomas: nice
+Anna <-> Zan: \o/
+end
+note left
+right here we have a note
+end note
+Leigh <-> Lukasz
+Leigh <-> Thomas
+Leigh <-> Zan
+Lukasz <-> Thomas
+Lukasz <-> Zan
+note right
+and here is another note
+end note
+Thomas <-> Zan
+Zan -> Zan: self-referential
+note left
+this is a
+multi-line
+note
+end note
+hnote across:right across everyone
+@enduml
