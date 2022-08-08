@@ -1,0 +1,18 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+title Example System Context diagram for The Website
+
+Person(customer, "Site User", "A user of The Website")
+System(the_website, "The Website", "Allows customers to view information about The Organisation, access personal accounts, etc.")
+
+System_Ext(mail_system, "E-mail system", "The e-mail system.")
+System_Ext(database, "Customer Database", "Stores all of the core information about The Organisation, customers, events, training, etc.")
+
+Rel(customer, the_website, "Uses")
+Rel_Back(customer, mail_system, "Sends e-mails to")
+Rel_Neighbor(the_website, mail_system, "Sends e-mails", "SMTP")
+Rel(the_website, database, "Uses")
+@enduml
