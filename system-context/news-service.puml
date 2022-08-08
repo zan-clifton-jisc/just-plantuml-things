@@ -1,0 +1,17 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+title Social News Website and Forum
+
+Person(user, "Site User", "A customer or user of Newzily, with, or without, an account.")
+System(news_system, "Newzily", "Allows users to access and change their profile, and read, post, edit, vote on and delete articles and comments.")
+System_Ext(database, "Database", "Stores all the information about articles, users, comments etc.")
+
+Rel(user, news_system, "Uses")
+Rel(news_system, database, "Uses")
+footer
+Well, I discovered this footer by accident!
+end footer
+@enduml
