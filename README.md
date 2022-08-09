@@ -35,10 +35,10 @@ $ code .
 
 You will need to have the following installed:
 
-[VS Code](https://code.visualstudio.com/download) 
-[PlantUML VS Code Extension](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
-[Graphviz](http://www.graphviz.org/download/)
-[Java](https://www.java.com/en/download/)
+- [VS Code](https://code.visualstudio.com/download) 
+- [PlantUML VS Code Extension](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
+- [Graphviz](http://www.graphviz.org/download/)
+- [Java](https://www.java.com/en/download/)
 
 Quick install Java and Graphviz for Mac:
 ```
