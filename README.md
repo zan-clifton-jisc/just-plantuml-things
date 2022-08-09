@@ -50,7 +50,7 @@ Quick install for Windows:
 
 You should be good out of the box. If not, or you want to customise which versions you are using, there are instructions included on the extension's page.
 
-Otherwise, you can quick install PlantUML and its dependencies with chocolatey:
+Otherwise, you can quick install PlantUML and its dependencies with [Chocolatey](https://chocolatey.org/install):
 ```
 $ choco install plantuml
 ```
